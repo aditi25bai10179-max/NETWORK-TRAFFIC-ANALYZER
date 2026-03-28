@@ -1,9 +1,9 @@
-🌐 Network Traffic Analyzer
-📌 Project Description
+ Network Traffic Analyzer
+ Project Description
 
 The Network Traffic Analyzer is a Python-based project that simulates network traffic data, analyzes usage patterns, and detects unusual spikes (anomalies). It also visualizes the data using graphs to make analysis easy and understandable.
 
-🎯 Problem Statement
+-> Problem Statement
 
 Monitoring network traffic manually is difficult and inefficient.
 Users cannot easily identify:
@@ -11,25 +11,25 @@ Users cannot easily identify:
 High usage periods
 Sudden spikes in traffic
 Protocol usage patterns
-💡 Solution
+-> Solution
 
 This project:
 
 Generates simulated network traffic data
 Detects abnormal spikes using a threshold method
-Visualizes traffic patterns using graphs
-⚙️ Technologies Used
+isualizes traffic patterns using graphs
+->Technologies Used
 Python
 Pandas
 Matplotlib
 Random module
-🚀 Features
-📊 Simulated network traffic generation
-🔍 Anomaly (spike) detection
-📈 Traffic visualization
-📊 Protocol usage analysis
-📉 Traffic distribution analysis
-🧠 How It Works
+- Features
+- Simulated network traffic generation
+- Anomaly (spike) detection
+- Traffic visualization
+- Protocol usage analysis
+- Traffic distribution analysis
+- How It Works
 1. Data Generation
 Creates time-based traffic data
 Random values simulate normal traffic
@@ -41,29 +41,29 @@ Any value above threshold is considered a spike
 
 The project generates 3 graphs:
 
-📈 Traffic Over Time (Line Graph with spikes highlighted)
-📊 Protocol Usage (Bar Chart)
-📉 Traffic Distribution (Histogram)
-📊 Sample Output
+ Traffic Over Time (Line Graph with spikes highlighted)
+ Protocol Usage (Bar Chart)
+ Traffic Distribution (Histogram)
+ Sample Output
 Console Output:
 Average Traffic
 Maximum Traffic
 Threshold Value
 Detected Spikes
-📁 Project Structure
+ Project Structure
 network_traffic_analyzer.py
 README.md
-▶️ How to Run
+ How to Run
 Install required libraries:
 pip install pandas matplotlib
 Run the Python file:
 python network_traffic_analyzer.py
-📌 Future Improvements
+ Future Improvements
 Real-time network monitoring
 GUI dashboard (using Streamlit)
 Advanced anomaly detection using Machine Learning
 Data export to CSV
-🎯 Conclusion
+-> Conclusion
 
 This project demonstrates how Python can be used to:
 
